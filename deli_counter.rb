@@ -11,8 +11,7 @@ end
 return line(katz_deli) 
 
 def take_a_number(katz_deli,name)
-  
-name=name.gets 
+  name=gets.chomp 
 
   katz_deli.push(name)
   
