@@ -13,7 +13,8 @@ return line(katz_deli)
 def take_a_number(katz_deli,name)
   name=gets.chomp 
 
- puts katz_deli.push(name)
+  katz_deli.push(name)
+  
   
 end
 end 
