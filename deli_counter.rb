@@ -7,4 +7,4 @@ def line(katz_deli)
      puts katz_deli
    end
  end
- 
+  return line(katz_deli)
