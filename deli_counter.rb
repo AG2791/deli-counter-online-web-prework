@@ -14,6 +14,7 @@ def take_a_number(katz_deli,name)
   name=gets.chomp 
 
   katz_deli.push(name)
+  puts name.index(name-1)
   
 end 
   
