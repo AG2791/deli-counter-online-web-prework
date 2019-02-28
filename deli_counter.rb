@@ -6,7 +6,7 @@ ef line(katz_deli)
    end
 end 
 
-return line(katz_deli) 
+ 
 
 def take_a_number(katz_deli,name)
   puts "Please put your name on the list."
@@ -15,7 +15,7 @@ def take_a_number(katz_deli,name)
     position= katz_deli.index(name) + 1
   puts  "Welcome, #{name} You are number #{position} in line"
   end
-  take_a_number(katz_deli,"Mike")
+  
 
 def now_serving (katz_deli)
     if katz_deli.length == 0
@@ -26,4 +26,4 @@ def now_serving (katz_deli)
      katz_deli.shift
     end
 end
-now_serving(katz_deli)
+
